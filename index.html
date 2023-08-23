@@ -4,91 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Street Food Website</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway&display=swap');
-  body{
-    font-family: 'Poppins', sans-serif;
-}
-h3 {
-    color: #162938;
-    font-size: 1.5em;
-}
-h3 span{
-    color: #6cb840;
-}
-h1{
-    color: #6CB840;
-}
-button{
-    width: 180px;
-    height: 55px;
-    background-color: #6CB840;
-    color: white;
-    border: none;
-    font-size: 1.2em;
-    outline: none;
-    cursor: pointer;
-    border-radius: 30px;
-}
-.street-food nav a{
-    margin: 40px;
-    text-decoration: none;
-    color: #162938;
-    font-size: 1.3em;
-}
-.street-food{
-    background-color: #b3c1d9;
-}
-.burgers{
-    display: flex;
-    margin: 50px;
-}
-.burger-name{
-    width: 350px;
-    height: 250px;
-    background-color: #ffffff;
-    border-bottom-right-radius: 50px;
-    margin: 50px;
-    display: flex;
-}
-.burgers-menu{
-    background-color: #b3c1d9;
-    margin: 100px;
-}
-::placeholder{
-    color: #162938;
-    font-size: 1.4em;
-}
-.eat-together{
-    display: flex;
-}
-.eat-together img{
-    width: 500px;
-    height: 400px;
-}
-.eat-together p{
-    display: flexbox;
-}
-.hot-deals{
-    background-color:  #C9ECB5;
-}
-.contact-us{
-    background-color: #f2d6e8;
-}
-.contact-us input{
-    border: none;
-    outline: none
-}
-.newsletter-footer{
-    background-color: #b3c1d9;
-    display: flex;
-}
-</style>
+  </style>
 </head>
 <body>
     <!--landing page-->
     <div class="street-food">
         <nav>
+            <div class="semi-circle"></div>
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">Our Menu</a>
@@ -103,7 +28,7 @@ button{
         <h3 style="color: #6CB840;">Street <span style="color: #EAAB1B;">Food</span></h3>
         <h3>We don't play with food</h3>
         <p>
-            When I was a small boy, my father told me never to recommend a church or a woman to anyone. And I have found it wise never to recomend a restaurant either. 
+            When I was a small boy, my father told me never to recommend a church or a woman to anyone. And I have found it wiser never to recomend a restaurant either. 
             Something always goes wrong with the cheese souffle.
         </p>
         <button>Order Now</button><br><br><br><br>
@@ -111,9 +36,10 @@ button{
 
     <!--eat together-->
     <div class="eat-together">
-        <img src="burger-cocktail.jpg" alt="Burger with Cocktail">
+        <img src="eat-together.JPG" alt="Burger with Cocktail">
     <p>
-        There is something profoundly satisfying about sharing a meal.<br> Eating together, breaking bread together,<br> is one of the oldest and most fundamentally unifying of
+        <b>Eat Together</b><br>
+        There is something profoundly satisfying about sharing a meal. Eating together, breaking bread together, is one of the oldest and most fundamentally unifying of
         human experiences.
     </p>
     </div>
@@ -123,24 +49,31 @@ button{
         <h3>Explore <span>Menu</span></h3>
     <div class="burgers">
         <div class="burger-name">
-            <img src="StreetFood.png" alt="Burger name" width="150px" height="150px">
+            <img src="chicken.jpg" alt="Grilled Chicken" width="150px" height="150px">
+            <h4>Grilled Chicken...$7</h4>
+            
         </div>
         <div class="burger-name">
-            <img src="StreetFood.png" alt="Burger name" width="150px" height="150px">
+            <img src="chapo-samo.jpg" alt="Chapati_*_Samo" width="150px" height="150px">
+            <h4>Chapo-Samo...$0.7</h4>
         </div>
         <div class="burger-name">
-            <img src="StreetFood.png" alt="Burger name" width="150px" height="150px">
+            <img src="burger1.jpg" alt="Hamburger" width="150px" height="150px">
+            <h4>Hamburger...$2.5</h4>
         </div>
     </div>
     <div class="burgers">
         <div class="burger-name">
-            <img src="StreetFood.png" alt="Burger name" width="150px" height="150px">
+            <img src="spanish.jpg" alt="Spanish Omelette" width="150px" height="150px">
+            <h4>Spanish Omelette...$3</h4>
         </div>
         <div class="burger-name">
-            <img src="StreetFood.png" alt="Burger name" width="150px" height="150px">
+            <img src="shawarma1.jpg" alt="Shawarma" width="150px" height="150px">
+            <h4>Turkish Shawarma...$5</h4>
         </div>
         <div class="burger-name">
-            <img src="StreetFood.png" alt="Burger name" width="150px" height="150px">
+            <img src="lemon.jpg" alt="Lemon Juice" width="150px" height="150px">
+            <h4>Lemon Juice- Ice...$1.2</h4>
         </div>
     </div>
     </div>
@@ -148,9 +81,10 @@ button{
     <!--hot deals-->
     <div class="hot-deals">
         <h3>Hot <span>Deals</span></h3>
+        <img src="burger-cocktail.jpg" alt="Burger With Cocktail">
         <h1>SPECIAL COMBO PACK</h1>
-        <h3>Burger Pizz</h3>
-        <h3>Fries & Drinks</h3>
+        <h4>Burger Pizz</h4>
+        <h4>Fries & Drinks</h4>
         <p>
             People ask me, What would you be doing without baseball? I don't know...super-sizing fries? Two Polish men at Halloween with burned faces. What happened? 
             They were bobbing for french fries while having a passion and beetroot cocktail drink.
@@ -162,7 +96,7 @@ button{
         <center>
             <h3>Contact <span>Us</span></h3>
             <p>Do you mind leaving your email with us, if not please provide it below to keep in touch with us: </p>
-            <input type="email" placeholder="Email" style="width: 700px; height: 50px; border-radius: 25px; padding: 10px;"><br><br>
+            <input type="email" placeholder="Email"><br><br>
             <button>Send</button><br><br><br><br>
         </center>
     </div>
@@ -175,17 +109,20 @@ button{
             <h4>Fridays- Saturdays</h4>
             <h4>4AM- 10PM</h4>
         </div>
+        <div class="space1"></div>
         <div class="place-pin">
             <h3>LOCATION</h3>
             (254) 2633- 456 <br>
             801 Ghetto Street | <br>
              Majengo ZY 00100
         </div>
+        <div class="space1"></div>
         <div class="sign-up-news">
             <h3>NEWSLETTER</h3>
             Do you want the latest news and the hot deal news, sign-up to our newsletter <br>
             <button>Sign-Up</button>
         </div>
+        <div class="space1"></div>
         <div class="follow-us">
             <h3>FOLLOW</h3>
             Follow us: <br>
