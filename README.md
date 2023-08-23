@@ -4,7 +4,7 @@
 
 This is a simple website that shows some different types of snacks and fast foods that are available in a simple street cafe, it contains a simple description of the same, the menu and a contact section as well as a simple section that shows the location. Additionally you can sign up to the cafe's newsletter through a link at the bottom part.
 
-The landing page gives access to navigate through all the offered services and provided snacks/foods.
+The landing page gives access to navigate through all the offered services and provided snacks/foods. Delivery services are not available at the moment.
 
 # Tools used to build the website
 
