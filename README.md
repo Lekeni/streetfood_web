@@ -28,7 +28,7 @@ To get a clear impression of the website, one requires to have a personal comput
 
 # Issues
 
-The only known issue with the website is that the website is not fully responsive
+The only known issue with the website is that the website is not fully responsive and as a result, some features may not be seen on smaller devices.
 
 # License
 
